@@ -1,4 +1,4 @@
-DateTime::Format::XMLTV version 0.01, released May 5, 2011
+DateTime::Format::XMLTV version 1.00, released November 17, 2012
 
 
 This module understands the datetime format used by XMLTV files,
@@ -21,22 +21,23 @@ DEPENDENCIES
 
   Package                    Minimum Version
   -------------------------- ---------------
-  perl                        5.008
+  perl                        5.8.0
   DateTime::Format::Builder   0.80
 
 
 
 CHANGES
-    Here's what's new in version 0.01 of DateTime::Format::XMLTV:
+    Here's what's new in version 1.00 of DateTime::Format::XMLTV:
     (See the file "Changes" for the full revision history.)
 
-	- Initial release
+	- Add tests for +0930 time zone
+	- Add 00-all_prereqs.t
 
 
 
 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Christopher J. Madsen.
+This software is copyright (c) 2012 by Christopher J. Madsen.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
