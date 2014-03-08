@@ -21,8 +21,8 @@ use 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '1.00';
-# This file is part of DateTime-Format-XMLTV 1.00 (November 17, 2012)
+our $VERSION = '1.001';
+# This file is part of DateTime-Format-XMLTV 1.001 (March 8, 2014)
 
 #=====================================================================
 use DateTime::Format::Builder 0.80 (
@@ -114,8 +114,8 @@ DateTime::Format::XMLTV - Parse and format XMLTV dates and times
 
 =head1 VERSION
 
-This document describes version 1.00 of
-DateTime::Format::XMLTV, released November 17, 2012.
+This document describes version 1.001 of
+DateTime::Format::XMLTV, released March 8, 2014.
 
 =head1 SYNOPSIS
 
@@ -206,11 +206,11 @@ or through the web interface at
 L<< http://rt.cpan.org/Public/Bug/Report.html?Queue=DateTime-Format-XMLTV >>.
 
 You can follow or contribute to DateTime-Format-XMLTV's development at
-L<< http://github.com/madsen/datetime-format-xmltv >>.
+L<< https://github.com/madsen/datetime-format-xmltv >>.
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Christopher J. Madsen.
+This software is copyright (c) 2014 by Christopher J. Madsen.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
